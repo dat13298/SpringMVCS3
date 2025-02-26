@@ -1,4 +1,4 @@
-package vn.aptech.spring.model;
+package vn.aptech.spring.model.book;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;

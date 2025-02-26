@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Add New Book</h1>
-<%--@elvariable id="book" type="vn.aptech.spring.model.Book"--%>
+<%--@elvariable id="book" type="vn.aptech.spring.model.book.Book"--%>
 <form:form modelAttribute="book" action="/books/add" method="post">
   <table>
     <tr>

@@ -1,4 +1,4 @@
-package vn.aptech.spring.model;
+package vn.aptech.spring.model.book;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
