@@ -8,7 +8,8 @@
 <body>
 <h1>Edit New Book</h1>
 <%--@elvariable id="book" type="vn.aptech.spring.model.Book"--%>
-<form:form modelAttribute="book" action="books/add-new" method="post">
+<form:form modelAttribute="book" action="/books/update" method="post">
+    <form:hidden path="id" />
     <table>
         <tr>
             <td>
