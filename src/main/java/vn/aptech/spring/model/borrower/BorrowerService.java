@@ -19,8 +19,7 @@ public class BorrowerService {
     public Page<Borrower> findBorrowers(Pageable pageable) {
         PageRequest pageRequest = PageRequest.of(
                 pageable.getPageNumber(),
-                pageable.getPageSize(),
-                Sort.by("borrow_date").descending()
+                pageable.getPageSize()
         );
         return borrowerRepository.findAll(pageRequest);
     }
