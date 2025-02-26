@@ -28,18 +28,18 @@
         </tr>
         <tr>
             <td>
-                <form:label path="published">Published Year:</form:label>
+                <form:label path="publishedYear">Published Year:</form:label>
             </td>
             <td>
-                <form:input path="publishedYear" id="published" />
+                <form:input path="publishedYear" id="publishedYear" />
             </td>
         </tr>
         <tr>
             <td>
-                <form:label path="copies_avilable">Published Year:</form:label>
+                <form:label path="copiesAvailable">Published Year:</form:label>
             </td>
             <td>
-                <form:input path="copiesAvailable" id="copies_avilable" />
+                <form:input path="copiesAvailable" id="copiesAvailable" />
             </td>
         </tr>
         <tr>
